@@ -1,0 +1,57 @@
+* {
+    color: grey;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(../imagens/fundo.jpg);
+    font-family: arial;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+input {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: block;
+    height: 40px;
+    width: 355px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid darkgrey;
+    font-size: 16pt;
+    padding: 10px 20px;
+}
+
+input[type=submit] {
+    color: grey;
+    border: none;
+    background-color: lightgrey;
+    height: 60px;
+    width: 395px;
+    cursor: pointer;
+}
+
+div#corpo-form {
+    width: 420px;
+    margin: 150px auto 0px auto;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+div.msg {
+    width: 420px;
+    margin: 10px auto;
+}
